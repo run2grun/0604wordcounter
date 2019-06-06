@@ -71,6 +71,7 @@ h3{
     text-align: center;
 }
 .typewriter{
+    height: 40px;
     font-family: 'UhBeeSeulvely'; 
     display: inline-flex;
     font-size: 1.2rem;

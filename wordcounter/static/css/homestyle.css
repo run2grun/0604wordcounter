@@ -1,4 +1,9 @@
-
+@font-face { 
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
 @font-face { 
     font-family: 'locus_sangsang'; 
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff');
@@ -94,7 +99,7 @@ textarea{
     height: 200px;
     outline:none;
 }
-a{
+.about a{
     font-family: 'UhBeeSeulvely'; 
     font-size: 1rem;
     display: block;
@@ -103,4 +108,14 @@ a{
     text-decoration: none;
     margin-left: 440px;
     margin-top:30px;
+
+}
+.ref a{
+    font-family: 'GyeonggiBatang';
+    text-decoration: none;
+}
+.ref{
+    font-family: 'GyeonggiBatang';
+    text-decoration: none;
+    text-align: center;
 }

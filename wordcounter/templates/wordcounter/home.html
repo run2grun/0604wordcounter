@@ -11,15 +11,19 @@
     <link href="{% static 'css/homestyle.css' %}" rel="stylesheet">
 </head>
 <body>
+    
     <br><br>
     <div class="block1"><h3>WordCounter</h3></div>
     <h3>단어의 수를 셀 수 있습니다.<br> 아래에 원하는 텍스트를 입력해주세요!</h3>
-    <br>  
-    <a href="{%url 'about' %}">about</a>  
+    <div class="about">
+        <a href="{%url 'about' %}" >about</a>  
+    </div>
     <form action="{%url 'count' %}">
         <textarea name="fulltext"></textarea>
-        <button class = "submit"><p>단어 세기</p></button>
+        <button class = "submit"><p>단어 세기</p></button><br>
     </form>
-    </<h3>
+    <div class="ref">
+        <h4>맞춤법이 헷갈릴 때는 <a href="http://speller.cs.pusan.ac.kr/" target="_blank">여기</a>를 참고하세요.</h4>
+    </div>
 </body>
 </html>
